@@ -10,24 +10,28 @@
         my education, relevant skills, and work experience.
 
         Author: Matthew Layne
-        Date:   01/24/2022
+        Date Modified:   01/24/2022
     --->
 </head>
 <body>
     
     <div id="page-banner" class="banner">
-        <!-- Page Navigation -->
         <h1 id="title">Matthew Layne's Resume</h1>
+        <!-- Page Navigation -->
+        <nav>
+            <a href="#info">Contact Info</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills / Qualifications</a>
+            <a href="#experience">Experience</a>
+        </nav>
     </div>
     
     <div id="Resume">
         <section id="info" class="resume-section">
         <h1>Matthew Layne</h1>
-            <p>Cell: (434) 426-9056</p>
-            <p>Email: mel1@vt.edu</p>
-            <p>LinkedIn:
-                <a href="https://www.linkedin.com/in/matthew-layne/">https://www.linkedin.com/in/matthew-layne/</a>
-            </p>
+            <p>Cell: <a href="tel: +14344269056">+1 (434) 426-9056</p>
+            <p>Email: <a href="mailto: mel1@vt.edu">mel1@vt.edu</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/matthew-layne/">https://www.linkedin.com/in/matthew-layne/</a> </p>
         </section>
 
         <section id="education" class="resume-section">
@@ -50,32 +54,33 @@
         </section>
 
         <section id="skills" class="resume-section">
-            <h2>Technical Skills / Qualifications:</h2>
-            <h4>Languages:</h4>
-                <p>C, C++, C#, Java, Python, SQL, Prolog, Haskell, Ruby, HTML, CSS</p>
-            <h4>Skills / Qualifications:</h4>
-                <p>
+            <h2 class="skill-header">Technical Skills / Qualifications:</h2>
+            <h4 class="sub-header">Languages:</h4>
+                <div id="languages" class="skills-section">
+                    C, C++, C#, Java, Python, SQL, Prolog, Haskell, Ruby, HTML, CSS
+                </div>
+            <h4 class="sub-header">Skills / Qualifications:</h4>
+                <div id="skills" class="skills-section">
                     Git, SVN, Jira / Agile Software Process, Linux Environment, Dev Ops, Unit Testing, Data Structures, Computer Organization, MatLab, UML, Linear Algebra, Combinatorics, Public Speaking
-                </p>
-            <h4>Clearance:</h4>
-                <p>Secret</p>
+                </div>
+            <h4 class="sub-header">Clearance:</h4>
+                <div id="ambiguous-section" class="skills-section">Secret</p>
         </section>
 
-        <section id="" class="resume-section">
-            <h2>Work Experience:</h2>
-            
-            <h4>Intern at L3Harris Technologies from 2021/05/24 – 2021/07/30:</h4>
+        <section id="experience" class="resume-section">
+            <h2 class="experience-header">Work Experience:</h2>
+            <h4 class="experience-section">Intern at L3Harris Technologies from 2021/05/24 – 2021/07/30:</h4>
                 <p>
                     Secret Clearance. Wrote unit tests; fixed issues in the Denali Architecture. I wrote and modified both unit tests and source code in a Scrum environment. I worked extensively with: SVN, Jira, Code Collaborator, and internal tools for automatic testing.
                 </p>
 
-            <h4>Co-op / Intern at L3Harris Technologies from 2020/01/13 – 2020/07/31:</h4>
+            <h4 class="experience-section">Co-op / Intern at L3Harris Technologies from 2020/01/13 – 2020/07/31:</h4>
                 <p>
                     Wrote automated tests using C# for a waveform. I actively participated in scrum ceremonies as a member of a scrum team which used the CI/DevOps Framework. <br>
                     Proficient with: Code Collaborator, Git, SVN, Jenkins, and several internal company tools.
                 </p>
 
-            <h4>Intern for Chartio from 2019/05/16 - 2019/11/30:</h4>
+            <h4 class="experience-section">Intern for Chartio from 2019/05/16 - 2019/11/30:</h4>
                 <p>
                     Created YouTube videos and wrote technical articles for Chartio’s dataschool.com, focused on increasing PostgreSQL Database efficiency using a variety of techniques including Query Plans, Partial and Multicolumn Indexes, etc.<br>
                     These articles are available at: <a href="https://dataschool.com/people/matthew-layne/">https://dataschool.com/people/matthew-layne/</a>
