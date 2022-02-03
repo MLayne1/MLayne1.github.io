@@ -20,16 +20,16 @@
 }
 
 .skill-list{
-	background-color: blue;
-	color: red;
+	background-color: #7e6400;
+	color: beige;
 	
 	border-style: solid;
 	border-width: 2px;
-	border-color: green;
+	border-color: blue;
 }
 
 .soft-skills{
 	background-color: purple;
 	border-color: red;
-	color: gold;
+	color: #09cd09;
 }
