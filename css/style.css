@@ -1,0 +1,35 @@
+#skills-header{
+	background-color: yellow;
+}
+
+.skills-wrapper{
+	background-color: white;
+	width: 50%;
+
+	font-family: Papyrus;
+	font-size: 17.5px;
+
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 0.5em;
+	float: left;
+}
+
+#computer-skills{
+	float: right;
+}
+
+.skill-list{
+	background-color: blue;
+	color: red;
+	
+	border-style: solid;
+	border-width: 2px;
+	border-color: green;
+}
+
+.soft-skills{
+	background-color: purple;
+	border-color: red;
+	color: gold;
+}
