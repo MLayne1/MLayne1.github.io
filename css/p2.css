@@ -1,3 +1,21 @@
+/* Matthew Layne - 02/11/2022
+ * ==========================
+ * This css syle sheet is for project 2 of CS3744.
+ * It is a stylized version of project 1, a simple html version
+ * of my resume. 
+ *
+ *  The Selectors chosen to use are:
+ *
+ *  elements:   body, h2;
+ *
+ *  classes:    .nav-destination, .nav-button, .nav-button:hover, 
+ *              .resume-section, .ss-header, .ss-content, 
+ *              .oversized-ss-content, and .small-ss-content
+ *
+ *  id:         #page-banner;
+ */
+
+/* General changes to the entire body */
 body {
     margin: 0;
     padding: 0;
@@ -5,14 +23,9 @@ body {
     font-family: sans-serif;
 }
 
-/* Section headers */
-h2 {
-    font-family: serif;
-    text-decoration: underline;
-}
-
+/* =============== BANNER STYLING =============== */
 /* Create sticky banner at the top of the page*/
-#page-banner{
+#page-banner {
     position: sticky;
     top: 0;
     width: 100%;
@@ -35,7 +48,7 @@ h2 {
 }
 
 /*Create buttons for the navigation links at the top of the page*/
-.nav-button{
+.nav-button {
     background-color: gray; 
     border-style: solid;
     border-width: 2px;
@@ -56,6 +69,14 @@ h2 {
     color: #262626;
 }
 
+
+/* =============== CONTENT STYLING =============== */
+/* Section headers */
+h2 {
+    font-family: serif;
+    text-decoration: underline;
+}
+
 /* effects all 4 major sections of the resume*/
 .resume-section {
     background-color: gray;
@@ -72,14 +93,14 @@ h2 {
 }
 
 /* All subsection headers */
-.ss-header{
+.ss-header {
     margin: 0;
     width: 60%;
     margin-left: 20%;
 }
 
 /* All subsection content areas of all resume sections */
-.ss-content{
+.ss-content {
     box-sizing: border-box;
     border-style: solid;
     border-width: .1 em;
@@ -94,13 +115,13 @@ h2 {
 }
 
 /* Paricularly enlarges the size of content subsections that need more space than 40% */
-.oversized-ss-content{
+.oversized-ss-content {
     width: 60%;
     margin-left: 20%;
 }
 
 /* Paricularly shrinks the size of content subsections that need less space than 40% */
-.small-ss-content{
+.small-ss-content {
     width: 30%;
     margin-left: 35%;
 }
