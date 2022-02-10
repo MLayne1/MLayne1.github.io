@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/p2.css">
+    <title>My Resume</title>
+
+    <!--
+        This document is the first project in CS 3744.
+        It is an html version of my resume and includes 
+        my education, relevant skills, and work experience.
+
+        Author: Matthew Layne
+        Date Modified:   01/24/2022
+    -->
+
+</head>
+<body>
+    
+    <div id="page-banner" class="banner">
+        <h1 id="title">Matthew Layne's Resume</h1>
+        <!-- Page Navigation -->
+        <nav>
+            <a href="#info" class="nav-button">Contact Info</a>
+            <a href="#education" class="nav-button">Education</a>
+            <a href="#skills" class="nav-button">Skills / Qualifications</a>
+            <a href="#experience" class="nav-button">Experience</a>
+        </nav>
+    </div>
+    
+    <div id="Resume">
+        <span id="info" class="nav-destination"> &nbsp </span> <!--For header offset-->
+        <section id="info-section" class="resume-section">
+            <div id="info-content" class="content-box">
+
+                <h2 id="name">Matthew Layne</h2>
+
+                <img src="portrait.jpeg" alt="Image of Matthew Layne">
+
+                <div id="address" class="ss-content small-ss-content">
+                    Address:<br>
+                    <p id="address-line1" class="address-line">1335 Jeb Stuart Place,</p>
+                    <p id="address-line2" class="address-line">Forest, VA 24551</p>
+                </div>
+                <p id="cell-number" class="ss-content small-ss-content">Cell: <a href="tel:+14344269056"><br>(434) 426-9056</a> </p>
+                <p id="email" class="ss-content small-ss-content">Email: <a href="mailto:mel1@vt.edu"><br>mel1@vt.edu</a> </p>
+                <p id="linked-in" class="ss-content">LinkedIn: <a href="https://www.linkedin.com/in/matthew-layne/"><br>https://www.linkedin.com/in/matthew-layne/</a> </p>
+
+            </div>
+        </section>
+
+        <span id="education" class="nav-destination"> &nbsp </span> <!--For header offset-->
+        <section id="education-section" class="resume-section">
+            <div id="education-content" class="content-box">
+                
+                <h2>Education:</h2>
+
+                <div class="subsection">
+                    <h4 class="ss-header">Virginia Polytechnic Institute and State University</h4>
+                    <div class="education-details ss-content">
+                        GPA:   3.54<br>
+                        Major: Computer Science<br>
+                        Year:  Senior
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h4 class="ss-header">CyberLeaders Program</h4>
+                    <ul id="cl-program-list" class="ss-content oversized-ss-content">
+                        <li>
+                            Scholarship program in cyber security; implemented cyber policy principles using big data from Washington DC
+                        </li>
+                        <li>Created a machine learning algorithm for fake news article classification</li>
+                        <li>Gathered and processed data for training the models</li>
+                        <li>Learned about Federal and International Cyber Policy and Regulations</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <span id="skills" class="nav-destination"> &nbsp </span> <!--For header offset-->
+        <section id="skills-section" class="resume-section">
+            <div id="skills-content" class="content-box">
+                
+                <h2 class="skill-header">Technical Skills / Qualifications:</h2>
+
+                <div class="subsection">
+                    <h4 class="ss-header">Languages:</h4>
+                    <div id="languages" class="ss-content">
+                        C, C++, C#, Java, Python, SQL, Prolog, Haskell, Ruby, HTML, CSS
+                    </div>
+                </div>
+                
+                <div class="subsection">
+                    <h4 class="ss-header">Skills / Qualifications:</h4>
+                    <div id="skills-list" class="ss-content oversized-ss-content">
+                        Git, SVN, Jira / Agile Software Process, Linux Environment, DevOps, Unit Testing, Data Structures, Computer Organization, MatLab, UML, Linear Algebra, Combinatorics, Public Speaking
+                    </div>
+                </div>
+                
+                <div class="subsection">
+                    <h4 class="ss-header">Clearance:</h4>
+                    <div class="ss-content">Secret</div>
+                </div>
+
+            </div>
+        </section>
+
+        <span id="experience" class="nav-destination"> &nbsp </span> <!--For header offset-->
+        <section id="experience-section" class="resume-section">
+            <div id="experience-content" class="content-box">
+
+                <h2  class="experience-header">Work Experience:</h2>
+
+                <div class="experience-ss subsection">
+                    <h4 class="ss-header">Intern at L3Harris Technologies from 2021/05/24 – 2021/07/30:</h4>
+                    <div class="ss-content oversized-ss-content">
+                        Secret Clearance. Wrote unit tests; fixed issues in the Denali Architecture. I wrote and modified both unit tests and source code in a Scrum environment. I worked extensively with: SVN, Jira, Code Collaborator, and internal tools for automatic testing.
+                    </div>
+                </div>
+
+                <div class="experience-ss subsection">
+                    <h4 class="ss-header">Co-op / Intern at L3Harris Technologies from 2020/01/13 – 2020/07/31:</h4>
+                    <div class="ss-content oversized-ss-content">
+                    Wrote automated tests using C# for a waveform. I actively participated in scrum ceremonies as a member of a scrum team which used the CI/DevOps Framework. <br>
+                    Proficient with: Code Collaborator, Git, SVN, Jenkins, and several internal company tools.
+                    </div>
+                </div>
+
+                <div class="experience-ss subsection">
+                    <h4  class="ss-header">Intern for Chartio from 2019/05/16 - 2019/11/30:</h4>
+                    <div class="ss-content oversized-ss-content">
+                        Created YouTube videos and wrote technical articles for Chartio’s dataschool.com, focused on increasing PostgreSQL Database efficiency using a variety of techniques including Query Plans, Partial and Multicolumn Indexes, etc.<br>
+                        These articles are available at: <a href="https://dataschool.com/people/matthew-layne/">https://dataschool.com/people/matthew-layne/</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</body>
+</html>
