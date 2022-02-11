@@ -13,6 +13,9 @@
  *              .oversized-ss-content, and .small-ss-content
  *
  *  id:         #page-banner;
+ *
+ *
+ *  Uses both serif and sans-serif fonts
  */
 
 /* General changes to the entire body */
@@ -35,9 +38,10 @@ body {
     border-width: 0.4em;
     text-align: center;
     font-size: 18px;
+    font-family: serif;
 }
 
-/* Allows for sticky header to not overlap section when navigated to */
+/* Allows for sticky header to not overlap section when navigation links are used */
 .nav-destination { 
     display: block; 
     content: " "; 
@@ -47,7 +51,7 @@ body {
     pointer-events: none;
 }
 
-/*Create buttons for the navigation links at the top of the page*/
+/* Create buttons for the navigation links at the top of the page*/
 .nav-button {
     background-color: gray; 
     border-style: solid;
@@ -103,12 +107,12 @@ h2 {
 .ss-content {
     box-sizing: border-box;
     border-style: solid;
-    border-width: .1 em;
+    border-width: .1em;
     border-color: #333333;
     background-color: #AAAAAA;
     text-align: center;
     overflow-wrap: break-word;
-    font-size: 1.5 em;
+    font-size: 1.5em;
     width: 40%;
     margin-left: 30%;
     margin-bottom: 5%;
